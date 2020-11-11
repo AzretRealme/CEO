@@ -1,19 +1,20 @@
-public class CEO extends Employee{
-    private boolean hasCompanyCar;
+public class Manager extends Employee{
 
-    public CEO() {
+    private boolean hasStocks = true;
+
+    public void setHasStocks(boolean hasStocks) {
+        this.hasStocks = hasStocks;
     }
-    public CEO(String name, int age, double salary){
+    public boolean getHasStocks() {
+        return hasStocks;
+    }
+    public Manager() {
+    }
+    public Manager(String name, int age, double salary){
         super(name, age, salary);
     }
-    public boolean isHasCompanyCar() {
-        return hasCompanyCar;
-    }
-    public void setHasCompanyCar(boolean hasCompanyCar) {
-        this.hasCompanyCar = hasCompanyCar;
-    }
-    public void goPublic(){
-       // super.Work();
-        System.out.print("CEO everyday work" + " Work IPO");
+    public void writeProcedures(){
+        //super.Work();
+        System.out.print("Managers awesome work" + " WriteProcedures");
     }
 }
