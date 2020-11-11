@@ -1,14 +1,18 @@
 public class Employee {
-    private double salary;
+
     private String name;
     private int age;
+    private double salary;
+
 
     public Employee() {
 
     }
-    public Employee(double salary) {
+    public Employee( String name, int age, double salary) {
 
+        this.name = name;
         this.salary = salary;
+        this.age = age;
     }
 
     public String getName() {
@@ -38,7 +42,6 @@ public class Employee {
     }
 
     public void Work(){
-
-        System.out.println("Emloyee" + " Work");
+        System.out.print(" Emloyee awesome writing" + " Work");
     }
 }
