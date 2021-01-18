@@ -13,6 +13,6 @@ public class Specialist extends Employee{
     }
     public void workWithClients(){
         //super.Work();
-        System.out.print("Specialist awesome speak English" + " workWithClients ");
+        System.out.print("Specialist - awesome speak English. " + " -workWithClients. ---");
     }
 }
