@@ -14,7 +14,6 @@ public class CEO extends Employee{
     }
     public void goPublic(){
        // super.Work();
-        System.out.print("CEO everyday work" + " Work IPO");
+        System.out.print("CEO - everyday work.  " + " -Work IPO.   ---");
     }
 }
-
