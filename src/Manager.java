@@ -15,6 +15,6 @@ public class Manager extends Employee{
     }
     public void writeProcedures(){
         //super.Work();
-        System.out.print("Managers awesome work" + " WriteProcedures");
+        System.out.print("Managers - awesome work.  " + " -WriteProcedures.  ---");
     }
 }
