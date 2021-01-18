@@ -42,6 +42,6 @@ public class Employee {
     }
 
     public void Work(){
-        System.out.print(" Emloyee awesome writing" + " Work");
+        System.out.print(" Emloyee - awesome writing.  ---");
     }
 }
