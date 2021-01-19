@@ -42,7 +42,7 @@ public class Employee {
     }
 
     public void Work(){
-        System.out.print(" Emloyee - awesome writing.  ---");
+        System.out.println(" Emloyee - awesome writing.  ---" + getName() + ", ЗАРПЛАТА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
     }
 }
 
