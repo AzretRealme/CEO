@@ -15,6 +15,8 @@ public class CEO extends Employee{
 
     public void goPublic(){
        // super.Work();
-        System.out.print("CEO - everyday work.  " + " -Work BMW Company.   ---");
+        System.out.println(" CEO - everyday work.  " + " -Work BMW Company.   ---" + " КОМПАНИЯ БМВ : " + isHasCompanyCar() + getName() +
+                ", ЗАРПЛАТА ДИРЕКТОРА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
+
     }
 }
