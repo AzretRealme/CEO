@@ -15,6 +15,7 @@ public class Developer extends Employee{
 
     public void writeCode(){
        // super.Work();
-        System.out.print("Developers - good made games.  " + " -WriteCode.  ---");
+        System.out.println(" Developers - good made games.  " + " -WriteCode.  ---" + getName() +  ", РАНГ РАЗРАБОТЧИКА: " + getGrades() +
+                ", ЗАРПЛАТА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
     }
 }
